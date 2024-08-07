@@ -77,7 +77,7 @@ const Projects = () => {
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-5  p-3">
           {
             projects.map((project) => (
-              <div className="relative rounded-md border-2 border-white overflow-hidden group" key={project.id} style={{ height: '300px' }}>
+              <div className="relative rounded-md border-2 border-white overflow-hidden group" key={project.id} style={{ height: '200px' }}>
                 <img src={project.img} alt={project.title} className="absolute inset-0 w-full h-full object-cover group-hover:opacity-0" />
 
                 <div className="relative z-10 h-full hidden group-hover:flex flex-col items-center justify-center">
