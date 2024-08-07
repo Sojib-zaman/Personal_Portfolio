@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); /* For the Raleway font */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); /* For the Great Vibes font */
+
+
+/* Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* The whole website is using the base settings */
+@layer base{
+  html {
+   font-family: 'Raleway' , sans-serif;
+  }
+}
