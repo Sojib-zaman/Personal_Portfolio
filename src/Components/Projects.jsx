@@ -36,7 +36,7 @@ const Projects = () => {
       img: Capture,
       demo: 'https://youtu.be/e2n8sNTd86w?si=eQ21Yjfg6BcZEAHX',
       code: '',
-      info: 'Waves is my first ever project in 1-1. It basically creates some sample sine and cosine waves and vary them according to the user input. It was a fun project to work with.'
+      info: 'Waves is my first ever project in 1-1. It basically creates some sample sine and cosine waves and vary them according to the user input.'
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ const Projects = () => {
       img: lilkid,
       demo: 'https://youtu.be/0kmgnuPTiO8?si=rf9aA4-efIYa4JR_',
       code: 'https://github.com/Sojib-zaman/football-manager',
-      info: 'Football Manager is a simple football management game developed using Java. The game is about managing a football team, buying and selling players, maintaining the team'
+      info: 'Football Manager is a simple football management game developed using Java. The game is about managing a football team, buying and selling players.'
     },
     {
       id: 6,
