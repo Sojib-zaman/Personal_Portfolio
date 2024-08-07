@@ -44,7 +44,7 @@ const Projects = () => {
       img: r2,
       demo: 'https://youtu.be/KkzGZMDdOY0?si=9KLFBCX9FDtXaayS',
       code: '',
-      info: 'Radare2 is a portable reverse engineering framework.It has lots of Cli tools to work with binary files and understand the way they work.Supports analyzing binaries, disassembling code, debugging programs, attaching to remote gdb servers and so on.'
+      info: 'Radare2 is a portable reverse engineering framework.It has lots of Cli tools to work with binary files and understand the way they work.'
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ const Projects = () => {
       img: toplogo1,
       demo: 'https://youtu.be/EAmra81vv7M?si=77m32j6zgSMuXA4p',
       code: 'https://github.com/Sojib-zaman/Project-Fornax',
-      info: 'This is my first website using React and Database. Although the primary focus was on the backend , I learned a lot about React and how to connect it with the backend. This is an educational website where students can learn and teachers can teach.'
+      info: 'This is my first website using React and Database. This is an educational website where students can learn and teachers can teach.'
     },
 
 
