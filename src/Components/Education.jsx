@@ -15,7 +15,7 @@ const Education = () => {
                 <div className="h-screen">
                     <div className="flex flex-col  justify-center p-3 m-2 text-lg font-bold text-white ">
                         <div className="flex  mb-4">
-                            <img src={buet} className="object-contain max-h-16 max-w-16"></img>
+                            <img src={buet} className="object-contain max-h-16 max-w-16" alt="buet"></img>
                             <div className="ml-4">
                                 <div className="flex ">
                                     <GiGraduateCap />
@@ -26,7 +26,7 @@ const Education = () => {
                             </div>
                         </div>
                         <div className="flex  mb-4">
-                            <img src={ndc} className="object-contain max-h-16 max-w-16"></img>
+                            <img src={ndc} className="object-contain max-h-16 max-w-16" alt="ndc"></img>
                             <div className="ml-4">
                                 <div className="flex ">
                                     <GiGraduateCap />
@@ -37,7 +37,7 @@ const Education = () => {
                             </div>
                         </div>
                         <div className="flex">
-                            <img src={drmc} className="object-contain max-h-16 max-w-16"></img>
+                            <img src={drmc} className="object-contain max-h-16 max-w-16" alt="drmc"></img>
                             <div className="ml-4">
                                 <div className="flex">
                                     <GiGraduateCap />

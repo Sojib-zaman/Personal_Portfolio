@@ -82,8 +82,8 @@ const Projects = () => {
 
                 <div className="relative z-10 h-full hidden group-hover:flex flex-col items-center justify-center">
                   <div className="flex items-center justify-center">
-                    <a href={project.demo} title="demo" className="relative inline-flex items-center justify-center p-3 m-2  border-cyan-100 border-2" target="_blank" role="button"><FaExternalLinkAlt/></a>
-                    <a href={project.code} title="code" className="relative inline-flex items-center justify-center p-3 m-2  border-cyan-100 border-2 " target="_blank" role="button"><FaCode/></a>
+                    <a href={project.demo} title="demo" className="relative inline-flex items-center justify-center p-3 m-2  border-cyan-100 border-2" target="_blank" rel="noreferrer" role="button"><FaExternalLinkAlt/></a>
+                    <a href={project.code} title="code" className="relative inline-flex items-center justify-center p-3 m-2  border-cyan-100 border-2 " target="_blank" rel="noreferrer" role="button"><FaCode/></a>
                   </div>
                   <p className="mt-4 text-white text-center">
                     {project.info}

@@ -1,8 +1,8 @@
 import React from 'react'
 import {FaGithub , FaLinkedin} from 'react-icons/fa'; 
-import {FiMail} from 'react-icons/fi';
+
 import { FaFacebook } from 'react-icons/fa';
-import {GrInstagram , GrFacebook , GrTwitter , GrYoutube} from 'react-icons/gr';
+import {GrTwitter , GrYoutube} from 'react-icons/gr';
 
 const SocialLinks = () => {
 

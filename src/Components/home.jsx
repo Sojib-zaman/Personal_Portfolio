@@ -1,7 +1,7 @@
 import React from 'react'
 import mypic from '../assets/myimg.jpg'
 import cover from '../assets/cover.jpg'
-import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
+
 const HomePage = () => {
     return (
         <div id="Home" className="h-screen w-full bg-gray-950">
