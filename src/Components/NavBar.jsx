@@ -12,16 +12,15 @@ const NavBar = () => {
     { id: 6, link: "ContactMe" },
 
   ];
-  var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-100px";
-  }
-  prevScrollpos = currentScrollPos;
-}
+  window.onscroll = function() {
+    const navbar = document.getElementById("navbar");
+    if (window.scrollY > 0) {
+        navbar.style.top = "-60px"; // Adjust based on navbar height
+    } else {
+        navbar.style.top = "0";
+    }
+};
+
 
   return (
     <div className="flex justify-between items-center h-20 py-3 px-5 w-full text-white bg-transparent fixed" id="navbar">
