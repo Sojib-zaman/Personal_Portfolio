@@ -2,7 +2,7 @@ import React from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 const NavBar = () => {
 
-  const [showMenu, setShowMenu] = React.useState(false); // state to show or hide the menu
+
 
   const otherpages = [
     { id: 1, link: "Home" },
@@ -30,27 +30,7 @@ const NavBar = () => {
       </ul>
 
 
-      <div onClick={() => setShowMenu(!showMenu)} className='cursor-pointer px-4 z-10 text-gray-500 md:hidden'>
-        {showMenu ? <FaTimes /> : <FaBars />}
       </div>
-
-      {
-        showMenu && (
-          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-500 text-gray-100'>
-
-            {
-
-              otherpages.map((page) => (
-
-                <a href={`#${page.link}`} key={page.id} className='px-4 cursor-pointer py-6 text-4xl'>{page.link}
-                </a>
-              ))}
-
-          </ul>
-        )
-      }
-
-    </div>
   )
 }
 

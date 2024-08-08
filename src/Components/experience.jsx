@@ -1,6 +1,7 @@
 import React from 'react';
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaDatabase , FaPython , FaCode } from 'react-icons/fa';
 import { SiFlutter } from 'react-icons/si';
+import { FaJava } from "react-icons/fa6"
 
 const Experience = () => {
   const skills = [
@@ -11,6 +12,10 @@ const Experience = () => {
     { id: 5, title: 'Node.js', icon: <FaNodeJs className="text-4xl" /> },
     { id: 6, title: 'Flutter', icon: <SiFlutter className="text-4xl" /> },
     { id: 7, title: 'PostgreSQL', icon: <FaDatabase className="text-4xl" /> },
+    { id: 8, title: 'Oracle', icon: <FaDatabase className="text-4xl" /> },
+    { id: 9 , title: 'Java', icon: <FaJava className="text-4xl" /> },
+    {id: 11, title: 'C++', icon: <FaCode className="text-4xl" /> },
+    {id: 12, title: 'Python', icon: <FaPython className="text-4xl" /> },
   ];
 
   return (
