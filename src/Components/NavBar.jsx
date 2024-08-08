@@ -15,7 +15,7 @@ const NavBar = () => {
   window.onscroll = function() {
     const navbar = document.getElementById("navbar");
     if (window.scrollY > 0) {
-        navbar.style.top = "-60px"; // Adjust based on navbar height
+        navbar.style.top = "-90px"; 
     } else {
         navbar.style.top = "0";
     }
